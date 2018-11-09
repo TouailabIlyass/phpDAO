@@ -1,0 +1,27 @@
+body{
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+body > div
+{
+	margin: 230px auto 0;
+
+	background-image: url("../img/notebook-chill.jpg");
+    
+
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+div > form
+{
+    margin: 20px; 
+}
+div form
+{
+  padding-left: 30px;
+  margin-top: 150px; 
+
+}

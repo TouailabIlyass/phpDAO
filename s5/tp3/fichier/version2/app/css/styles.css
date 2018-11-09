@@ -1,0 +1,46 @@
+body{
+    background: url("../img/background.jpg") no-repeat;
+	background-size: cover;
+    min-height: 100%;
+    
+}
+
+
+#registration-form{
+	max-width: 800px;
+	margin: 120px auto;
+	display: flex;
+}
+
+#registration-form .image{
+	
+	background-image: url("../img/desk.jpg");
+	
+	width: 50%;
+	background-size: cover;
+
+}
+
+#registration-form .frm{
+	
+	
+    width: 50%;
+    min-width: 250px;
+    padding: 0 35px;
+    background-color: white;
+    border: 1px solid red;
+}
+
+#registration-form h1{
+	margin-top: 30px;
+	margin-bottom: 20px;
+
+}
+
+#registration-form .form-control{
+	width: 90%;
+	padding: 12px 20px;
+	height: auto;
+}
+
+

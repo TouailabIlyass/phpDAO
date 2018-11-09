@@ -1,0 +1,35 @@
+<?php
+
+session_start();
+
+require_once('User.php');
+
+if($_SERVER['REQUEST_METHOD']=='POST')
+{
+  if(isset($_POST['login'])){
+  	if (!empty($_POST['username']) && !empty($_POST['password'])) {
+
+    $user=new User('','','',$_POST['username'],$_POST['password']);
+    $_SESSION['user']=serialize($user);
+    unset($user);
+    header('Location: check.php');
+  }
+}
+
+
+
+else if(isset($_POST['signup'])){
+	if (!empty($_POST['nom']) && !empty($_POST['prenom']) && !empty($_POST['username']) && !empty($_POST['password']) && !empty($_POST['email'])) {
+
+			
+			$dao->insert('user',$_POST);
+		header('Location: index.php');
+
+		
+	}
+
+
+
+}
+
+}

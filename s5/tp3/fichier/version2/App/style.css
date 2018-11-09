@@ -1,0 +1,45 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+input{
+	
+	display: block;
+
+}
+
+li{
+	list-style-type: none;
+}
+
+nav{
+	background-color: #DDD;
+	width: 30%;
+	word-wrap: break-word;
+}
+#parent-flex,#flex-table{
+	display: flex;
+}
+table{
+	
+}
+#ok{
+	display: flex;
+}
+#check {
+	border: 2px solid #f00;
+}
+#check input{
+	display: inline;
+	
+}
+.db > li > ul
+{
+	display: none;
+}
+
+.db > .c > ul
+{
+	display: block;
+}

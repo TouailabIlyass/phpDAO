@@ -1,0 +1,24 @@
+*
+{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+input{
+
+	display: block;
+}
+
+input[type='submit']
+{
+	display: inline-block;
+}
+
+.inline-form{
+
+	display: inline-block;
+}
+

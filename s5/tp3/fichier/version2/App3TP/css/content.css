@@ -1,0 +1,48 @@
+
+@media (max-width: 900px)
+{
+
+.item{
+
+	background-color: #EEE;
+	margin-bottom: 20px;
+	padding: 20px;
+	
+}
+
+
+}
+
+@media (min-width: 901px)
+{
+
+#grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+}
+
+.bb{
+    margin-bottom: 20px;
+	width: 45%;
+}
+.bb:hover{
+	padding: 5px;
+	background-color: #DDD;
+
+
+}
+.item{
+	background-color: orange;
+}
+
+#container{
+	width: 60%;
+	
+
+}
+.item{
+	order: 3;
+}
+
+}

@@ -1,0 +1,33 @@
+
+@media screen and (max-width: 700px){
+	#registration-form .image{
+		width: 30%;
+	    background-position: 60%;
+	}
+
+	#registration-form .frm{
+		width: 70%;
+	}
+
+	#registration-form .form-control{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#registration-form .image{
+		display: none;
+	}
+
+	#registration-form .frm{
+		width: 100%;
+	}
+
+	#registration-form h1{
+		text-align: center;
+	}
+
+	#registration-form .btn{
+		width: 100%;
+		margin-top: 20px;
+	}

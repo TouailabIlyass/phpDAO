@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#hd-v-left{
+	background-color: #00f;
+	color: #fff;
+    padding: 20px;
+   height: 100vh;
+}
+
+#hd-v-left li{
+	list-style-type: none; 
+}
+
+#hd-v-left ul > li > ul{
+	display: none;
+}
+
+#hd-v-left ul li:hover ul {
+ display: block;
+ position: static;
+}
+
+#hd-v-left > ul > li{
+	list-style-type: none;
+	padding: 10px 40px;
+
+}
+
+#hd-v-left li:hover{
+	color: #f00;
+}
+
+
+@media (min-width: 901px)
+{
+
+
+#hd-v-left{
+	width: 20%;
+	
+
+}
+}
